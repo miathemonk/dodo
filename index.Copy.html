@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="connect-style.css">
+  <title>dodo</title>
+</head>
+
+<body class="board-app">
+ 
+ <main class="caption">
+  
+  <div class="name">
+    <h1>Список задач</h1>
+  </div>
+
+    <section class="add-task" >
+      <form class="form">
+        <div class="form_title">Новая задача</div>
+        <input class="form_text" placeholder="Название задачи...">
+        <button class="button_blue"> + Добавить </button>
+      </form>
+     </section>
+      
+     <section class="taskboard"> 
+      <div class="task-baclog">
+        <ul> <h1>Бэклог</h1>
+          <li class="box">Выучить JS</li>
+          <li class="box">Выучить React</li>
+          <li class="box">Сделать домашку</li>
+        </ul>
+      </div> 
+      
+      <div class="task-in-process">
+      <ul> <h1>В процессе</h1> 
+        <li class="box">Выпить смузи</li>
+        <li class="box">Попить воды</li>
+      </ul>
+    </div> 
+      
+    <div class="task-done">
+      <ul> <h1>Готово</h1>
+        <li class="box">Позвонить маме</li>
+        <li class="box">Погладить кота</li>
+      </ul>
+    </div>
+      
+    <div class="task-bascet">
+      <ul> <h1>Корзина</h1>
+        <li class="box">Сходить погулять</li>
+        <li class="box">Прочитать Войну и Мир</li>
+      </ul>
+    </div>
+    <button class="button_red">
+      <p>Х Очистить </p>  </button>
+
+    </section>
+     
+  </main>
+  
+</body>
+
+</html>

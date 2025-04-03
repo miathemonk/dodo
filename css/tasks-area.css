@@ -1,0 +1,110 @@
+
+
+.task-baclog li,
+.task-in-process li,
+.task-done li,
+.task-bascet li
+{ 
+    width: 220px ;
+    height: 35px;
+    padding-top:15px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    list-style: none;
+    background-color: white;
+    border-radius: 0.5rem;
+    text-align: left;
+  
+}
+
+.task-baclog li{
+    border-left: 5px solid  rgb(191, 182, 182);
+}
+.task-in-process li{
+    border-left: 5px solid rgb(9, 179, 198);
+}
+.task-done li{
+
+    border-left: 5px solid rgb(66, 199, 66);
+}
+.task-bascet li{
+    border-left: 5px solid rgb(255, 82, 82);
+}
+
+
+
+
+.box.backlog{
+    width: 220px ;
+    height: 35px;
+    padding-top:15px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    list-style: none;
+    background-color: white;
+    border-radius: 0.5rem;
+    text-align: left;
+    border-left: 5px solid  rgb(191, 182, 182);
+}
+  
+.box.processing {
+    width: 220px ;
+    height: 35px;
+    padding-top:15px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    list-style: none;
+    background-color: white;
+    border-radius: 0.5rem;
+    text-align: left;
+    border-left: 5px solid rgb(9, 179, 198);
+}
+
+.box.done {
+    width: 220px ;
+    height: 35px;
+    padding-top:15px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    list-style: none;
+    background-color: white;
+    border-radius: 0.5rem;
+    text-align: left;
+    border-left: 5px solid rgb(66, 199, 66);
+}
+
+.box.basket {
+    width: 220px ;
+    height: 35px;
+    padding-top:15px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    list-style: none;
+    background-color: white;
+    border-radius: 0.5rem;
+    text-align: left;
+    border-left: 5px solid rgb(255, 82, 82);
+}
+
+.task_list_stub{  
+    padding: 10px;
+    width: 220px ;
+    height: 35px;
+    padding-top:15px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    list-style: none;
+    background-color: white;
+    border: 1px dashed ;
+    border-color: rgb(180, 179, 179);
+    border-radius: 5px;
+    color: rgb(180, 179, 179);
+    text-align: left;
+    
+}

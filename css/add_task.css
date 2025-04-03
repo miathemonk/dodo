@@ -1,0 +1,33 @@
+.form { 
+    
+    padding: 0.8rem 1.6rem ;
+    width: 35%;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 0.4rem;
+    color: black;
+    margin: 50px;
+    background-color: #fff;
+    margin-bottom: 7% ;
+
+
+}
+
+.form_text,
+.button_blue{
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-size: 13px;
+    padding: 1rem 1.9rem ;
+    border-radius: 0.4rem;
+    margin-right: 5px;
+     
+}
+
+.button_blue{
+ background-color: rgb(0, 132, 255);
+ color: #fff;
+ font-weight:800 ;
+}
+
